@@ -6,3 +6,11 @@ var theBeatlesPlay = (musicians,instruments) => {
   }
   return strings;
 };
+
+var johnLennonFacts = (facts) => {
+  let f=0, strings=[];
+  while( f<facts.length) {
+    strings.push(facts[f]+"!!!");
+  }
+  return strings;
+}
