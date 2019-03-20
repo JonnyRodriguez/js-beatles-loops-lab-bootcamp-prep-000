@@ -18,6 +18,6 @@ var johnLennonFacts = (facts) => {
 var iLoveTheBeatles = (number) => {
   let array = [];
   do {
-    array.push()
-  }
+    array.push("I love the Beatles!");
+  } while( ++number<15 );
 }
