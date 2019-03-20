@@ -13,4 +13,11 @@ var johnLennonFacts = (facts) => {
     strings.push(facts[f++]+"!!!");
   }
   return strings;
+};
+
+var iLoveTheBeatles = (number) => {
+  let array = [];
+  do {
+    array.push()
+  }
 }
