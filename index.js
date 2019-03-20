@@ -10,7 +10,7 @@ var theBeatlesPlay = (musicians,instruments) => {
 var johnLennonFacts = (facts) => {
   let f=0, strings=[];
   while( f<facts.length) {
-    strings.push(facts[f]+"!!!");
+    strings.push(facts[f++]+"!!!");
   }
   return strings;
 }
